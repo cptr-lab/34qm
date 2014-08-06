@@ -37,93 +37,25 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="img/logo_webseite.jpg" alt="34qm"></a>
+          <a class="navbar-brand" href="index.html"><img src="img/logo_webseite.jpg" alt="34qm"></a>
         </div>
         <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
             <li><a href="projekte.html">Projekte</a></li>
-            <!-- <li><a href="#">Workshops</a></li> -->
-            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="#contact">Kontakt</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
 
-    <div class="container">
+    <div class="container impressum">
 
-      <div class="content">
-        <!-- <h1>willkommen auf 34 qm</h1> -->
-
-            <div class="banner" id="oben">
-          <!-- <h4>AKTUELLES</h4> -->
-          <!-- <img class="hidden-xs" src="img/banner.jpg" alt="34QM Banner">
-          <img class="visible-xs" src="img/banner_ipad.jpg" alt="34QM Banner"--> 
-          <img class="visible-xs" src="img/banner_ipad.jpg" alt="34QM Banner">      
-          <ul class="rslides hidden-xs">
-            <li>
-              <img src="img/banner_2.jpg" alt="">
-
-              </li>
-            
-            <li><img src="img/slide_workshops.jpg" alt=""></li>
-            
-            <li><img src="img/banner_3.jpg" alt=""></li>
-            <!-- <li><img src="3.jpg" alt=""></li> -->
-          </ul>
-
-          <div class="row gallerie">
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-              
-              <img src="img/teaser_trennbar_2.jpg"alt="gal1">
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-              <img src="img/teaser_bsr_1.jpg"alt="gal1">
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-              <img src="img/teaser_bau.jpg"alt="gal1">
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-              <img src="img/teaser_feld.jpg"alt="gal1">
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-              <img src="img/teaser_recherche.jpg"alt="gal1">
-            </div>
-
-            
-          </div>
-        </div>
-
-        <div class="banner">
-          <h4>Wo wir sind:</h4>
-          <img class="hidden-xs" src="img/karte.jpg" alt="34QM Banner">
-          <img class="visible-xs" src="img/karte_ipad.jpg" alt="34QM Banner"
-        </div>
-
-    
-
-        <h4>Wer wir sind: </h4></br>
-        <div class="row">
-
-            <div class="col-sm-6">
-              <p>Das 34QM Designlabor der FH-Potsdam ist eine eigens auf dem HOLZMARKT organisierte Institution, welche sich mit Themen wie Müllvermeidung und Müllbeseitigung auf dem Gelände direkt befasst. Entstehende Probleme werden so direkt vor Ort analysiert, nach Lösungen gesucht und Prototypen getestet.  </br></br> Entstanden ist das Inovationslabor im Rahmen eines Semesterprojektes im Sommersemester 2014 an der Fachhochschule Potsdam in Kooperation mit dem HOLZMARKT und der BSR. </p>
-
-            </div>
-            <div class="col-sm-6"><p>Neben der Forschung an dem Kernproblem bieten wir den Sommer über verschiedene Workshops an die sich mit relevanten Problematiken rund um das Thema Müll beschäftigen. </br></br> Auf unserer Diskusionsplattform könnt ihr uns Feedback geben oder aber neu aufkommende Brennpunkte auf dem Gelände sofort mit uns zusammen analysieren und diskutieren. Wir sind immer offen und dankbar für Anregungen und Anliegen.    </p>
-
-
-            </div>
-        </div>
-        <!-- <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p> -->
-      </div>
-
-
-
-      <!-- footer -->
+      <p>
+        <h4>Kontakt:</h4><a href="mailto:fragen@34qm.de">fragen@34qm.de </a>
+      </p>
+      <p><h4>Ansprechpartner:</h4>Katharina Veitengruber, David Elsche</p>
+<!-- footer -->
       <div class="footer">
           <div class="row">
             <div class="col-sm-6 tleft">
@@ -164,7 +96,6 @@
     </div><!-- /.container -->
 
 
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -174,19 +105,19 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="js/responsiveslides.min.js"></script>
 
-      <script>
+    <script>
   $(function() {
     $(".rslides").responsiveSlides({
   auto: true,             // Boolean: Animate automatically, true or false
   speed: 600,            // Integer: Speed of the transition, in milliseconds
-  timeout: 2000,          // Integer: Time between slide transitions, in milliseconds
-  pager: false,           // Boolean: Show pager, true or false
-  nav: true,             // Boolean: Show navigation, true or false
+  timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
+  pager: true,           // Boolean: Show pager, true or false
+  nav: false,             // Boolean: Show navigation, true or false
   random: false,          // Boolean: Randomize the order of the slides, true or false
   pause: false,           // Boolean: Pause on hover, true or false
   pauseControls: true,    // Boolean: Pause when hovering controls, true or false
-  prevText: "   <   ",   // String: Text for the "previous" button
-  nextText: "   >   ",       // String: Text for the "next" button
+  prevText: "Previous",   // String: Text for the "previous" button
+  nextText: "Next",       // String: Text for the "next" button
   maxwidth: "",           // Integer: Max-width of the slideshow, in pixels
   navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
   manualControls: "",     // Selector: Declare custom pager navigation
