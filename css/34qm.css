@@ -25,7 +25,11 @@ body {}
 
 .navbar{height: 200px;background-color: white;border: 0;}
 	.navbar-collapse{border: 0;background-color: white;}
-	.navbar-header{height: 192px;}
+	.navbar-header{height: 192px;height: 225px;}
+	.navbar-toggle{border-color: black;}
+		.navbar-toggle span	{background-color: black;}
+
+.in .navbar-nav, .collapsing .navbar-nav{text-align: center;float: none;}
 
 .container{padding:0;}
 	.container .content{text-align: center;}
