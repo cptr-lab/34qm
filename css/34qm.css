@@ -3,6 +3,7 @@
 .tleft{text-align: left!important;}
 .tright{text-align: right!important;}
 /*main*/
+a,a:hover,a:visited,a:active{color: black;text-decoration: none;}
 body {}
 
 .h4{width: 340px;}
